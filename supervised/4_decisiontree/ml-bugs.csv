@@ -1,0 +1,39 @@
+,,,Color,Brown,Color,(Multiple Items),,Color,Blue,Color,(Multiple Items)
+,,,Color = Brown,,Color = Not Brown,,,Color = Blue,,Color = Not Blue,
+Row Labels,Count of Species,,Row Labels,Count of Species,Row Labels,Count of Species,,Row Labels,Count of Species,Row Labels,Count of Species
+Lobug,14,,Lobug,2,Lobug,12,,Lobug,6,Lobug,8
+Mobug,10,,Mobug,4,Mobug,6,,Mobug,4,Mobug,6
+Grand Total,24,,Grand Total,6,Grand Total,18,,Grand Total,10,Grand Total,14
+,,,,,,,,,,,
+Base Entrophy,,,,,,,,,,,
+0.979868757,,,0.918295834,,0.918295834,,,0.970950594,,0.985228136,
+- proportion each -log,,,,,,,,,,,
+,,,Information gain,,0.061572923,ok,,Information gain,,0.000589596,
+,,,,,- proportion the weight of information gain,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,Color,Green,Color,(Multiple Items),,Length (mm),(Multiple Items),Length (mm),(Multiple Items)
+,,,Color = Green,,Color = Not Green,,,Length < 17mm,,Length >= 17mm,
+,,,Row Labels,Count of Species,Row Labels,Count of Species,,Row Labels,Count of Species,Row Labels,Count of Species
+,,,Lobug,6,Lobug,8,,Lobug,3,Lobug,11
+,,,Mobug,2,Mobug,8,,Mobug,6,Mobug,4
+,,,Grand Total,8,Grand Total,16,,Grand Total,9,Grand Total,15
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,0.811278124,,1,,,0.918295834,,0.836640742,
+,,,,,,,,,,,
+,,,Information gain,,0.042776048,,,Information gain,,0.112607355,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,Length (mm),(Multiple Items),Length (mm),(Multiple Items),,,,,
+,,,Length < 20mm,,Length >= 20mm,,,,,,
+,,,Row Labels,Count of Species,Row Labels,Count of Species,,,,,
+,,,Lobug,8,Lobug,6,,,,,
+,,,Mobug,9,Mobug,1,,,,,
+,,,Grand Total,17,Grand Total,7,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,0.997502546,,0.591672779,,,,,,
+,,,,,,,,,,,
+,,,Information gain,,0.100733226,,,,,,
