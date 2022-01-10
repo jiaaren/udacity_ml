@@ -136,10 +136,56 @@ Instead of using accuracy, we can first focus our attention on which of the foll
 #### F beta boundaries
 <img src='8_fbetaboundaries.PNG'>
 
+### ROC Curve
+
 ## Choosing metrics
 - choosing metrics (accuracy, precision, recall, F1) depends on use case
   - refer to medium article in 5_naivebayes.
 
+### Exercise
+- Exercise 15
+  - What is Bag Classifier?
+  - Have a look at ROC AUC?
+    - Why need to use ROC?
+
+## Regression model metrics
+### Mean absolute Error
+- `sklearn.metrics.mean_absolute_error`
+- Problem with mean absolute error is that it is not differentiable at minimum
+- [Absolute value wikipedia](https://en.wikipedia.org/wiki/Absolute_value)
+- [Why MAE not differentiable](https://www.youtube.com/watch?v=VpEZKqhwbF8)
+<img src='8_maenotdifferentiable.png'>
+
+
+### Mean squared error
+- `sklearn.metrics.mean_squared_error`
+
+### R2 score
+- `sklearn.metrics.r2_score`
+- Comparing our model with **the simplest/most basic model**
+  - This would be basically drawing a line through the average of all points
+- `R2 = 1 - (Our model - Simplest model)`
+<img src='8_r2score.PNG'>
+
+
+### Exercise 18
+#### Models that can be used for regression/classification
+1. Both - Decision tree, Random Forest, AdaBoost
+2. Classification - Logistic Regression
+   1. This is widely used for regression takss
+3. Regression - Linear Regression
+- However, technically sklearn won't stop you from doing most of anything you want, i.e. using linear regression for classification
+
+### Summarising Machine Learning
+<img src='8_problem.PNG'>
+<img src='8_problem1.PNG'>
+
+
 ## TODO
 - True positives, True negatives, False positives, False negatives
   - Are these mainly for classification problems only?
+- ROC curve
+- Revisit Lessons 14 to 16
+- Watch statquest
+  - R2 score
+  - Logistic regression - why only for classification
