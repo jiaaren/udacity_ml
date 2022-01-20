@@ -171,6 +171,7 @@ clustering = gmm.predict(X)
 - Importance of value initialisation and covariance type
   - `3_gmmquiz2.pdf`
 
+
 ## TODO
 - Difference multivariate, mixed gaussian distributions
 - internalise log-likelihood
