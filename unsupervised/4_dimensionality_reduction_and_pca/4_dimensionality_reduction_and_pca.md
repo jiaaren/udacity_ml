@@ -113,7 +113,10 @@ The difficulty of searching through the space gets a lot harder as you have more
 - PCA may come at the cost of reducing your data **interpretability (understandability)**
 
 ### Exercise
-- 
+- refer `PCA_Mini_Project.ipynb`
+  - Exercise focuses on displaying results to show positive and negative weights for each PC
+  - Also ranks PCs and states the feature weights for all features
+  - We can use scree plot to explain variance per principal component
 
 ## [Statquest PCA](https://www.youtube.com/watch?v=FgakZw6K1QQ)
 ### Purpose
@@ -202,3 +205,4 @@ The difficulty of searching through the space gets a lot harder as you have more
 - What are least and most favourable components?
 - need to learn more about feature selection?
 - Explore more over resources for feature selection and extraction
+- **Internalise variation and PCA feature weight relation**
