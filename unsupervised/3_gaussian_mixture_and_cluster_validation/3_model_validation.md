@@ -65,21 +65,37 @@ Ideal clusters
 #### Exercise
 1. `GMM Clustering and Cluster Validation Lab.ipynb`
 
-
 #### Internal validation indices
 <img src='3_internalvalidation.PNG'>
-
 
 <ins>Visualising in terms of k-means</ins>
 - K=4 and K=5, gets penalised because there isn't enough distance between the clusters
 
-#### Silhouette coefficient
-1. Rewards compactness, circular clusters
-2. Silhouette coefficient shouldn't be used for DBSCAN since it doesn't understand the concept of outliers/noise
-   - DBSCAN also tend not to have compact clusters, so the score will be lower
-   - Instead use [DBCV](http://citeseerx.ist.psu.edu/viewdoc/download;jsessionid=83C3BD5E078B1444CB26E243975507E1?doi=10.1.1.707.9034&rep=rep1&type=pdf) for DBSCAN
-3. Downsides
+#### Silhouette index
+<ins>Formula</ins>
+<img src='3_silhouette.PNG'>
 
+<ins>Scoring Examples</ins>
+- Good example below to validate our intuition by finding **k in k-means**
+<img src='3_silhouette2.PNG'>
+<img src='3_silhouette3.PNG'>
 
+- Example **comparing between clustering algorithms**
+  1. Single link - low score - one cluster eating up majority of dataset
+  2. Silhouette coefficient shouldn't be used for DBSCAN since it doesn't understand the concept of outliers/noise
+     - DBSCAN also tend not to have compact clusters, so the score will be lower
+     - Instead use [DBCV](http://citeseerx.ist.psu.edu/viewdoc/download;jsessionid=83C3BD5E078B1444CB26E243975507E1?doi=10.1.1.707.9034&rep=rep1&type=pdf) for DBSCAN
+
+<img src='3_silhouette4.PNG'>
+<img src='3_silhouette5.PNG'>
+
+- Downsides
+  1. Rewards **compactness, circular clusters**
+    2. Does not score well for algorithms which carve out clusters
+
+<img src='3_silhouette6.PNG'>
+
+### Exercise
+- `GMM_Clustering_Validation.ipynb`
 ## TODO
 - What does it mean to discount rand index?
