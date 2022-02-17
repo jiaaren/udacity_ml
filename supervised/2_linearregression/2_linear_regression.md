@@ -33,7 +33,7 @@
 7. Feature scaling
 
 #### Fitting a line
-1. To fit a line that is the closest to all the points
+1. To fit a line that is the **closest to all the points**
 2. The idea is that we take a few steps that make us go closer to all the points
 
 #### Moving lines

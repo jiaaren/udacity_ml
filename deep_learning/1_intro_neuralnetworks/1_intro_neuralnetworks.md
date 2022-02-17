@@ -126,7 +126,7 @@ Refer to `Perceptrons` in <ins>supervised learning</ins>
 <img src='1_softmax4.PNG'>
 
 #### Softmax function Code
-```
+```python
 import numpy as np
 import math
 
@@ -197,7 +197,7 @@ def softmax(L):
 <img src='1_crossentropy4.PNG'>
 
 #### Cross-entropy code
-```
+```python
 import numpy as np
 from math import e, log
 
@@ -384,6 +384,8 @@ Neural network layers
 ### Feedforward
 - Process neural networks use to **turn the input into an output**
 
+- Simplest neural network using a perceptron
+
 ## Reminder
 - CE = negative log likelihood
 - error function = average CE / average negative log likelihood
@@ -394,6 +396,9 @@ Neural network layers
   - To revisit gradient descent formulas
 - How is sigmoid 1.5  = 0.82 intuitively?
   - 1.5 = 0.8 + 0.7
+- Learn matrix multiplication for neural networks
+- revisit feedforward and backpropogation
+  - and math behind
 
 ## Numpy
 - learn `matmul`, `multiply`

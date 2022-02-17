@@ -167,3 +167,4 @@ components = ica.fit_transform(X)
 
 ## TODO
 - How similar is pcA to random projection?
+- Revisit ICA
